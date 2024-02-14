@@ -37,6 +37,28 @@ class date{
         return false;
     }
 
+    void nextDate(){
+        day = day + 1;
+        if(valid()){
+            cout << "the next date is: ";
+            display();
+        }
+        else{
+            day = 1;
+            month = month + 1;
+            if(valid()){
+                cout << "the next date is: ";
+                display();
+            }
+            else{
+                month = 1;
+                year = year + 1;
+                cout << "the next date is: ";
+                display();
+            }
+        }
+    }
+
     bool valid() {
         if (year < 0) {
             return false;
@@ -66,4 +88,5 @@ int main(){
     d.assign();
     d.display();
     d.valid();
+    d.nextDate();
 }
