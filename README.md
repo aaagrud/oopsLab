@@ -9,15 +9,15 @@
 6. Develop programs that can read and write data to and from secondary storage.
 
 ## Cycle-I
-1. Programs to differentiate between `struct` and `class`.
+1. Programs to differentiate between struct and class.
 2. Programs to implement data abstraction, data encapsulation, and information hiding.
 3. Programs to demonstrate parameter passing techniques.
 
 ### Experiments:
-- Phone Numbers
-- Date
-- Bank
-- Triangle
+- Phone Numbers - [phoneNumber.cpp](phoneNumber.cpp)
+- Date - [date.cpp](date.cpp)
+- Bank - [bank.cpp](bank.cpp)
+- Triangle - [shortDistance.cpp](shortDistance.cpp)
 
 ## Cycle-II
 1. Programs to implement different Inheritance structures - Single, multiple, multilevel, and hierarchical.
@@ -25,22 +25,23 @@
 3. Programs to implement virtual functions and dynamic binding.
 
 ### Experiments:
-- Power of Variables
-- Swap Values
-- Array
-- Shortest Distance
+- Power of Variables - [powerVariables.cpp](powerVariables.cpp)
+- Swap Values - [swapValues.cpp](swapValues.cpp)
+- Array - [arrayClass.cpp](arrayClass.cpp)
+- Shortest Distance - [shortestDistance.cpp](shortestDistance.cpp)
 
 ## Cycle-III Part-I
 
 ### Experiments:
-- Overloaded Date
-- Distance
-- Complex Class
-- Distance Conversion
+- Overloaded Date - [overloadedDate.cpp](overloadedDate.cpp)
+- Distance - [distance.cpp](distance.cpp)
+- Complex Class - [complex.cpp](complex.cpp)
+- Distance Conversion - [convertDistance.cpp](convertDistance.cpp)
 
-## Cycle-III.2 Part-II
+## Cycle-III Part-II
+
 ### Experiments:
 - Polar Coordinates
 - Employee
-- Student
-- Shape
+- Student 
+- Shape 
